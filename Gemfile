@@ -46,7 +46,7 @@ group :development do
   gem 'netrc'
   gem 'prettybacon'
   gem 'typhoeus'
-  gem 'webmock'
+  gem 'webmock', '>= 2.3.1'
 
   gem 'bigdecimal', '~> 1.3.0'
   gem 'public_suffix', '~> 2.0' # Need 2.x version due to support for Ruby 2.0.x
@@ -59,7 +59,7 @@ group :development do
   gem 'inch_by_inch'
   gem 'rubocop'
 
-  gem 'danger', '~> 5.3'
+  gem 'danger', '~> 5.16', '>= 5.16.1'
 end
 
 group :debugging do
